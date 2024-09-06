@@ -10,3 +10,6 @@ git commit -m 'name' - cохраняет файлы
 git push origin master\main - отправляет файлы в репозиторий
 
 git rm --cached namefile -r
+
+
+git clone - клонирует\коннектится с репозиторием
