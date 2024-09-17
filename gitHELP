@@ -1,3 +1,4 @@
+
 команды на 1 раз
 git init - инициализирует гит
 git remote add origin ссылку на репозиторий - привязать ваш проект
@@ -14,3 +15,9 @@ git rm --cached namefile -r
 
 git clone link  - клонирует\коннектится с репозиторием
 git remote remove origin\namebranch - отвязывает проект от репозитория
+
+
+git branch - ветка
+
+
+

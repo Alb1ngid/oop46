@@ -13,9 +13,9 @@ class A:
 
 
 # дочерний
-class B:
-    def __init__(self,a,b):
-        self.a=a
+class B(A):
+    def __init__(self, a, b):
+        super().__init__(a)
         self.b=b
 
     name = 'B'
@@ -27,6 +27,7 @@ class D:
         self.d=d
     def bisplay(self):
         print('метод D')
+
 class C(B,D):
     def __init__(self,a,b,d):
         B.__init__(self,a,b)
@@ -46,3 +47,7 @@ print(C.mro())
 
 
 # git clone
+
+
+
+#
