@@ -18,6 +18,7 @@ git remote remove origin\namebranch - отвязывает проект от р�
 
 
 git branch - ветка
-
+git branch name - создание ветки
+git checkout name - переключение ветки
 
 
